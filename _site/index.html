@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Aliyah R. Cottle | A Portfolio</title>
+  </head>
+
+
+<style type="text/css">
+  
+#container_main{
+  display: flex;
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
+  flex-direction: column;
+  flex: 0 1 auto;
+}
+
+#logo {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+}
+
+.circle {
+  border-radius: 50px;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+#container_content {
+  width: 80vw;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: center;
+}
+
+#container_left, #container_right {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex: 0 1 auto;
+  margin: auto;
+  flex-direction: column; 
+}
+
+#container_blogpost{}
+#container_social{}
+#container_resume{}
+#container_work{}
+#container_contributions{}
+
+</style>
+
+<body>
+  
+<!-- Main container --> 
+<div id="container_main" class="border">
+  
+  <!-- TODO: Make include  -->
+  <div id="logo" class="circle">
+    A
+  </div>
+
+  <!-- Content container -->
+  <div id="container_content">
+
+  <!-- Left container contains: Blog post, social links, and resume container -->
+    <div id="container_left" class="border">
+      
+      <!-- Blogpost container -->
+      <div id="container_blogpost">
+        This is the blog post container
+      </div><!-- ./container_blogpost -->
+
+      <!-- Social container -->
+      <div id="container_social">
+        This is the social container
+      </div><!-- ./container_social -->
+
+      <!-- Resume container -->
+      <div id="container_resume">
+        
+      This is the resume container
+      </div><!-- ./container_resume -->
+
+    </div> <!-- ./container_left -->
+
+    <div id="container_right" class="border ">
+      
+    <!-- Work container -->  
+    <div id="container_work">
+
+      This is the work container
+
+    </div><!-- ./container_work -->
+
+
+    <!-- Contributions container -->
+    <div id="container_contributions">
+      
+      This is the contributions container
+
+    </div><!-- ./container_contributions-->
+
+
+
+    </div> <!-- ./container_right -->
+
+
+
+  </div> <!-- ./container_content -->
+
+
+
+</div> <!-- ./container_main -->
+
+
+
+
+</body>
+
+
+</html>
