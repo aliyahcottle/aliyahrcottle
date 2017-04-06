@@ -87,6 +87,11 @@
 
 		this.gridEl = this.isolayerEl.querySelector('.grid');
 
+<<<<<<< HEAD
+=======
+		
+
+>>>>>>> ecfcefef7f093d1c46c06988c40996f08bf3438b
 		// grid items
 		this.gridItems = [].slice.call(this.gridEl.querySelectorAll('.grid__item'));
 		this.gridItemsTotal = this.gridItems.length;
