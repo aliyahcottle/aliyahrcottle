@@ -116,14 +116,6 @@ body {
 	width: 70vw;
 	max-width: 1200px;
 	height: calc(100vh - 280px);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-	margin-top: 300px;
-	z-index: -1;
->>>>>>> ecfcefef7f093d1c46c06988c40996f08bf3438b
->>>>>>> dev
 }
 
 .isolayer--scroll1 .grid__item {
