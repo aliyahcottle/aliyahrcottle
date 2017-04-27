@@ -12,6 +12,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+<<<<<<< HEAD
 $max-width: 100vw;
 $max-height: 100vh;
 
@@ -26,6 +27,17 @@ $blogpost-header:  #FFF;
 $blogpost-header-heightlight: #FF6A03;
 $blogpost-lower: #F20731;
 
+=======
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+>>>>>>> 8394110dda3608d530649ffb7933617787cfc73f
 
 // Width of the content area
 $content-width:    800px;
@@ -52,9 +64,15 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+<<<<<<< HEAD
         "layout",
         "blog",
         "portfolio",
         "resume",
         "contact"
+=======
+        "base",
+        "layout",
+        "syntax-highlighting"
+>>>>>>> 8394110dda3608d530649ffb7933617787cfc73f
 ;
