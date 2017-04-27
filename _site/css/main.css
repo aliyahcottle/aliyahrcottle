@@ -1,0 +1,160 @@
+body {
+  background: #262626;
+  overflow-x: hidden; }
+
+/* Header Styles */
+header {
+  height: 20vh; }
+
+.fullscreen {
+  height: 100vh;
+  width: 100vw; }
+
+body::-webkit-scrollbar {
+  width: 1em; }
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey; }
+
+.site_header h1 {
+  color: #3BE7B6;
+  font-family: 'Bungee Hairline', cursive !important;
+  text-align: center;
+  font-size: 60px; }
+
+.site_header h3 {
+  color: #A9E81F;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 12px;
+  text-align: center; }
+
+#social {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#social i {
+  color: #FED21B; }
+
+p {
+  margin: 0px;
+  color: #FFF; }
+
+.fa {
+  margin: 0px 15px 0px 15px; }
+
+@media only screen and (max-width: 850px) {
+  .fa {
+    margin: 0px 5px 0px 5px; } }
+h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 24px;
+  font-weight: 400; }
+
+@media only screen and (max-width: 356px) {
+  #top_container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto; }
+
+  header {
+    height: auto; }
+
+  .site_header h1 {
+    color: #3BE7B6;
+    font-family: 'Bungee Hairline', cursive !important;
+    text-align: center;
+    font-size: 42px; }
+
+  .site_header h3 {
+    color: #A9E81F;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 12px;
+    text-align: center; } }
+/* Blogpost Styles */
+#blogpost {
+  width: 100vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center; }
+
+#blogpost_snippet {
+  color: #FFF;
+  width: 35vw; }
+
+#blogpost_date {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 3px solid #FFF;
+  float: left;
+  padding: 40px;
+  font-family: 'Bungee Hairline', cursive;
+  text-align: center;
+  font-size: 14px;
+  color: #F200CD;
+  box-shadow: 2px 2px 2px #111; }
+
+#blogpost_snippet p {
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: bold; }
+
+#blogpost_more {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px; }
+
+#blogpost_more button {
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid pink;
+  color: pink; }
+
+#blogpost_more button:hover {
+  border: 1px solid blue;
+  color: blue; }
+
+#arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin: 10px; }
+
+#arrow i {
+  color: #FFF;
+  text-shadow: 2px 2px 2px #111; }
+
+@media only screen and (max-width: 356px) {
+  #blogpost {
+    width: 100vw;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; } }
+#portfolio_container {
+  height: 100vh;
+  background-color: green; }
+
+#contact_container {
+  height: 100vh;
+  background-color: pink; }

@@ -1,0 +1,66 @@
+<div id="blogpost">
+
+  {% if paginator.previous_page %}
+
+
+  <div id="arrow">
+    <a href="{{ paginator.previous_page }}">
+      <i class="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  {% else %}
+
+  <div id="arrow">
+      <i class="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i>
+  </div>
+  {% endif %}
+
+
+  {% for post in paginator.posts %}
+  <div id="blogpost_snippet">
+
+    <h1>{{ post.title }}</h1>
+
+    <div id="blogpost_date" class="border"><b>April 31st</b></div>
+
+    <div id="blogpost_post">
+    
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.lorem tesxt to complete the bottom and find oout how much I can type here without the stupid text overflow because that is a real threat to this webpage and also this is a very long run on sentence.
+     </p>
+
+   </div>
+
+   <div id="blogpost_more">
+    <button>TL;DR</button>
+    <button>Read More</button>
+  </div>
+
+
+</div>
+
+{% endfor %}
+
+
+{% if paginator.next_page %}
+
+
+<div id="arrow">
+  <a href="{{ paginator.next_page_path }}">
+    <i class="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i>
+  </a>
+
+</div>
+
+{% endif %}
+
+
+
+</div> <!-- ./container_content -->
+
